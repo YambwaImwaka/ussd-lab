@@ -1,0 +1,68 @@
+{
+  "name": "@yambwa/ussd-lab",
+  "version": "0.1.0",
+  "description": "A USSD flow simulator and testing lab for developers – design, run, and debug USSD menus without connecting to a mobile network.",
+  "license": "MIT",
+  "author": "YambwaImwaka",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YambwaImwaka/pretty-lodger.git"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./core": {
+      "import": "./dist/core/index.js",
+      "types": "./dist/core/index.d.ts"
+    },
+    "./simulator": {
+      "import": "./dist/simulator/index.js",
+      "types": "./dist/simulator/index.d.ts"
+    },
+    "./testing": {
+      "import": "./dist/testing/index.js",
+      "types": "./dist/testing/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ussd",
+    "simulator",
+    "testing",
+    "africa",
+    "fintech",
+    "mobile-money",
+    "devtool"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
