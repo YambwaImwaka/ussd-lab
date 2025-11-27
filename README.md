@@ -13,6 +13,9 @@ USSD is widely used across Africa for mobile money, banking, utilities, and gove
 
 **@yambwa/ussd-lab** is the missing devtool for USSD. Before you deploy to a telco or aggregator, debug and test it locally.
 
+**GitHub**: https://github.com/YambwaImwaka/ussd-lab  
+**NPM**: https://www.npmjs.com/package/@yambwa/ussd-lab
+
 ## Features
 
 ### 1. Define USSD Flows in Code
@@ -160,4 +163,11 @@ MIT
 
 ## Contributing
 
-Contributions welcome! Please open an issue or submit a pull request.
+Contributions welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/YambwaImwaka/ussd-lab).
+
+## Resources
+
+- **Repository**: https://github.com/YambwaImwaka/ussd-lab
+- **Package**: https://www.npmjs.com/package/@yambwa/ussd-lab
+- **Issues**: https://github.com/YambwaImwaka/ussd-lab/issues
+- **Discussions**: https://github.com/YambwaImwaka/ussd-lab/discussions
