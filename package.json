@@ -1,6 +1,6 @@
 {
   "name": "@yambwa/ussd-lab",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A USSD flow simulator and testing lab for developers – design, run, and debug USSD menus without connecting to a mobile network.",
   "license": "MIT",
   "author": "YambwaImwaka",
