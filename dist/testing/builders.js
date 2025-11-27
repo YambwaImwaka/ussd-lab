@@ -1,4 +1,4 @@
-import { createApp, createScreen, END_SESSION } from '../core.js';
+import { createApp, createScreen, END_SESSION } from '../core';
 /**
  * Helper to quickly build a simple test app
  */

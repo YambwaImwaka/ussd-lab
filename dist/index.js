@@ -1,3 +1,3 @@
-export * from './core.js';
-export { Simulator } from './simulator.js';
-export * from './testing.js';
+export * from './core';
+export { Simulator } from './simulator';
+export * from './testing';

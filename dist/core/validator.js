@@ -1,4 +1,4 @@
-import { USSDError, END_SESSION, } from './types.js';
+import { USSDError, END_SESSION, } from './types';
 /**
  * Validates that a USSD app is correctly configured
  */

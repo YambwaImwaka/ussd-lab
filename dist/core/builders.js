@@ -1,4 +1,4 @@
-import { END_SESSION } from './types.js';
+import { END_SESSION } from './types';
 /**
  * Factory function to create a USSD app
  */

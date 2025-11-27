@@ -1,1 +1,1 @@
-export { Simulator } from './simulator.js';
+export { Simulator } from './simulator';

@@ -1,5 +1,5 @@
-import { END_SESSION, } from '../core/types.js';
-import { AppValidator } from '../core/validator.js';
+import { END_SESSION, } from '../core/types';
+import { AppValidator } from '../core/validator';
 /**
  * Simulates USSD sessions
  */
